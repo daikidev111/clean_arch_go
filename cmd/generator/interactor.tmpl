@@ -1,0 +1,17 @@
+package {{ .Package }}
+
+import (
+	"22dojo-online/pkg/domain/entity"
+	"22dojo-online/pkg/domain/service"
+)
+
+type {{ .Model }}Interactor struct {
+	{{ .Model }}Service service.{{ .Model }}ServiceInterface
+}
+
+// DI for Interactor 
+func New{{ .Model }}Interactor({{ .ModelLowerCase }}Service service.{{ .Model }}ServiceInterface) *{{ .Model }}Interactor {
+	return &{{ .Model }}Interactor{
+		{{ .Model }}Service: {{ .ModelLowerCase }}Service,
+	}
+}

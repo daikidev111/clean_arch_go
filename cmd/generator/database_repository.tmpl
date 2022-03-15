@@ -1,0 +1,11 @@
+package {{ .Package }}
+
+import (
+	"22dojo-online/pkg/domain/entity"
+)
+
+type {{ .Model }}Repository struct {
+	SQLHandler
+}
+
+// implement repository that inherits SQLHandler interface

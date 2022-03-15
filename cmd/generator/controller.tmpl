@@ -1,0 +1,21 @@
+package {{ .Package }}
+
+import (
+	// "22dojo-online/pkg/adapters/dcontext" // <- for getting context value
+	"22dojo-online/pkg/domain/entity"
+    // "22dojo-online/pkg/errors" <- for http error handling
+	"22dojo-online/pkg/usecase"
+)
+
+type {{ .Model }}Controller struct {
+    Interactor *usecase.{{ .Model }}Interactor
+}
+
+// DI for controller
+func New{{ .Model }}Controller({{ .ModelLowerCase }}Interactor *usecase.UserInteractor) *{{ .Model }}Controller {
+    return &{{ .Model }}Controller{
+        Interactor: {{ .ModelLowerCase }}Interactor,
+    }
+}
+
+// implement controller from here

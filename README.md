@@ -1,253 +1,181 @@
-<div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+# 概要
+<p>
+2022年2月21日 - 2022年3月4日<br>
+CA Tech Dojo Online で利用するAPIベース実装リポジトリ
+</p>
+
+CA Tech Dojo Onlineでは「スゴリらん！」というゲームのAPI実装を通してGo言語を使用したバックエンド開発のノウハウを学んでいきます。<br>
+「スゴリらん！」は8つのAPIを必要とし、そのうち7つのAPIを期間中に実装していきます。<br>
+
+課題の具体的な内容は[こちら](./TASKS.md)。
+
+【ゲーム画面】
+![ゲーム画面](./img/game_view.png)
+
+【画面遷移図】
+![画面遷移図](./img/transition.png)
+
+## API仕様
+API仕様はSwaggerUIを利用して閲覧します。
+```
+$ docker-compose up swagger-ui
+```
+を実行することでローカルのDocker上にSwaggerUIサーバが起動します。<br>
+<br>
+SwaggerUIサーバ起動後以下のURLからSwaggerUIへアクセスすることができます。
+
+SwaggerUI: <http://localhost:3000/> <br> 
+定義ファイル: `./api-document.yaml`<br>
+
+# 事前準備
+## goimportsとgolangci-lintのinstall
+自分の書いたソースコードがプロジェクトのコード規約に則って記述されているか確認したり、整形したりするツールとして**gofmt** 、**goimports**、**golangci-lint**を使用します。<br>
+**gofmt**はgoの標準コマンドであるため、goの環境構築を完了させていれば使用できるようになっていると思います。<br>
+**goimports**、**golangci-lint**は別途installする必要があるため、以下のコマンドを実行しましょう。
+```
+$ make local-install
+```
+コードを整形するときは
+```
+$ make fmt
+```
+コード規約に則っているか確認するときは
+```
+$ make lint
+```
+を実行して開発を進めましょう。<br>
+それぞれのコマンドが何を行っているか知りたいときはこのリポジトリ内のMakefileを見てみましょう。
+
+## docker-composeを利用したMySQLとRedisの準備
+### MySQL
+MySQLはリレーショナルデータベースの1つです。
+```
+$ docker-compose up mysql
+```
+を実行することでローカルのDocker上にMySQLサーバが起動します。<br>
+<br>
+初回起動時に db/init ディレクトリ内のDDL, DMLを読み込みデータベースの初期化を行います。<br>
+(DDL(DataDefinitionLanguage)とはデータベースの構造や構成を定義するためのSQL文)<br>
+(DML(DataManipulationLanguage)とはデータの管理・操作を定義するためのSQL文)
+
+#### PHPMyAdmin
+MySQLデータベースのテーブルやレコードの閲覧、変更するためのツールとしてPHPMyAdminを用意しています。
+```
+$ docker-compose up phpmyadmin
+```
+を実行することでローカルのDocker上にPHPMyAdminサーバが起動します。<br>
+PHPMyAdminサーバ起動後以下のURLからアクセスすることができます。
+
+PHPMyAdmin: <http://localhost:4000/>
+
+#### MySQLWorkbenchの設定
+※ dockerの環境設定が上手くいかなかった場合に利用推奨<br>
+Download: https://www.mysql.com/jp/products/workbench/
+
+MySQLへの接続設定をします。
+1. MySQL Connections の + を選択
+2. 以下のように接続設定を行う
+    ```
+    Connection Name: 任意 (dojo_api等)
+    Connection Method: Standard (TCP/IP)
+    Hostname: 127.0.0.1 (localhost)
+    Port: 3306
+    Username: root
+    Password: ca-tech-dojo
+    Default Schema: dojo_api
+
+#### API用のデータベースの接続情報を設定する
+環境変数にデータベースの接続情報を設定します。<br>
+ターミナルのセッション毎に設定したり、.bash_profileで設定を行います。
+
+Macの場合
+```
+$ export MYSQL_USER=root \
+    MYSQL_PASSWORD=ca-tech-dojo \
+    MYSQL_HOST=127.0.0.1 \
+    MYSQL_PORT=3306 \
+    MYSQL_DATABASE=dojo_api
+```
+
+Windowsの場合<br>
+※ それぞれの環境によって環境変数を設定するコマンドが異なる場合があるので注意
+```
+$ SET MYSQL_USER=root
+$ SET MYSQL_PASSWORD=ca-tech-dojo
+$ SET MYSQL_HOST=127.0.0.1
+$ SET MYSQL_PORT=3306
+$ SET MYSQL_DATABASE=dojo_api
+```
+
+#### Redis
+Redisはインメモリデータベースの1つです。<br>
+必須ではありませんが課題の中ででキャッシュやランキングなどの機能でぜひ利用してみましょう。<br>
+```
+$ docker-compose up redis
+```
+を実行することでローカルのDocker上にMySQLサーバが起動します。
+
+# APIローカル起動方法
+```
+$ go run ./cmd/main.go
+```
+
+## ローカル環境のAPIを使用したゲームプレイ方法
+自身が開発しているローカルのAPIを使用して、実際にゲームをプレイする方法は二つあります。場合によって使い分けてください。
+
+**どうして二つあるの？**
+今回使用するゲームのクライアントは、このリポジトリには含まれておらず、インターネット上に公開されています。インターネット上に公開されているアプリケーションが公開されている場所以外にアクセスしようとすると、セキュリティ上の問題があるため一部のブラウザではアクセスをブロックする設定になっています。(CORS)
+
+それを防ぐために、インターネット上にあるものをあたかもローカルに存在するように見せるproxyを用意しました。
+
+### docker-compose up proxyでプレイ
+Dockerを利用してプレイする方法です。ブラウザに左右されずに動作させることができます。
+
+```
+$ docker-compose up -d proxy
+
+// APIローカルも起動させる必要があります。
+$ go run ./cmd/main.go
+```
+
+ブラウザから下記URLにアクセスしてください。
+[http://localhost:3010/app](http://localhost:3010/app)
+
+ID・パスワードはともに `ca-tech-dojo` です。
+API接続先には `http://localhost:3010` と入力します。(ブラウザ直接利用の場合と異なるので注意！)
+
+### ブラウザから直接プレイ
+Dockerがうまく動かない場合には直接プレイすることもできます。ただし、ChromeやEdgeは利用できません。
+
+- macOSユーザーの場合: Safari or Firefox
+- Windowsユーザーの場合: Firefox
+
+```
+// APIローカルは起動させる必要があります
+$ go run ./cmd/main.go
+```
+
+ブラウザから下記URLにアクセスしてください。
+[http://13.114.176.9/](http://13.114.176.9/)
+
+ID・パスワードはともに `ca-tech-dojo` です。
+API接続先には `http://localhost:8080` と入力します。(proxy利用の場合と異なるので注意！)
+
+## ビルド方法
+作成したAPIを実際にをサーバ上にデプロイする場合は、<br>
+ビルドされたバイナリファイルを配置して起動することでデプロイを行います。
+### ローカルビルド
+Macの場合
+```
+$ GOOS=linux GOARCH=amd64 go build -o dojo-api ./cmd/main.go
+```
+
+Windowsの場合
+```
+$ SET GOOS=linux
+$ SET GOARCH=amd64
+$ go build -o dojo-api ./cmd/main.go
+```
+
+このコマンドの実行で `dojo-api` という成果物を起動するバイナリファイルが生成されます。<br>
+GOOS,GOARCHで「Linux用のビルド」を指定しています。
