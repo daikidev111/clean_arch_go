@@ -12,7 +12,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/daikidev111/clean_arch_go/">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -44,14 +44,11 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#Running MySQL, Redis, PHPMyAdmin, Swagger, Proxy containers with docker-compose">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -60,7 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 In this project, I have aimed to achieve the followings below;
-1. Refactor the code (see the original code from https://github.com/daikidev111/sugori_run/) to follow the clean architecture properly.
+1. Refactor the code (see the [original code](https://github.com/daikidev111/sugori_run/)) to follow the clean architecture properly.
 2. Inspect its testability and maintainability to demonstrate that this architecture is suitable for backend development in Go.
 3. Create a file generator utility that allows to generate files that follow the clean architecture pattern.
 4. Build CI, using Github Action to automate some of the testings.
@@ -107,7 +104,7 @@ This is an example of how to list things you need to use the software and how to
    make local-install
    ```
  
-### Running MySQL, Redis, PHPMyAdmin, Swagger, Proxy with docker-compose.yml
+### Running MySQL, Redis, PHPMyAdmin, Swagger, Proxy containers with docker-compose
 
 ```sh
   docker-compose up -d
@@ -138,9 +135,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Daiki Kubo - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Daiki Kubo - [LinkedIn](https://www.linkedin.com/in/daiki-kubo/)
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/daikidev111/clean_arch_go/](https://github.com/daikidev111/clean_arch_go/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
