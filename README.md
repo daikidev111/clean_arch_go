@@ -68,6 +68,8 @@ In this project, I aimed to achieve the followings below;
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+**Screen Transition Diagram**
+![画面遷移図](./img/transition.png)
 
 
 ### Built With
