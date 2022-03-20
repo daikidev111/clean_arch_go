@@ -56,7 +56,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-In this project, I have aimed to achieve the followings below;
+In this project, I aimed to achieve the followings below;
 1. Refactor the code (see the [original code](https://github.com/daikidev111/sugori_run/)) to follow the clean architecture properly.
 2. Inspect its testability and maintainability to demonstrate that this architecture is suitable for backend development in Go.
 3. Create a file generator utility that allows to generate files that follow the clean architecture pattern.
@@ -83,7 +83,7 @@ In this project, I have aimed to achieve the followings below;
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an instruction of how to set up and start it locally.
+This is an instruction of how to set up and start the project locally.
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
@@ -97,7 +97,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone this repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/daikidev111/clean_arch_go/
    ```
 2. Install goimports and golangci-lint
    ```sh
@@ -120,6 +120,34 @@ clean_arch_go_redis_1        docker-entrypoint.sh redis ...   Up      0.0.0.0:63
 clean_arch_go_swagger-ui_1   /docker-entrypoint.sh sh / ...   Up      80/tcp, 127.0.0.1:3000->8080/tcp
 ```
 
+### Check if golangci-lint and gofmt work
+
+gofmt is a tool that automatically formats the Go source code.
+   ```sh
+   make fmt
+   ```
+golangci-lint is a tool that checks if the source code follows the coding standard.
+   ```sh
+   make lint
+   ```
+
+### Initiate the API
+   ```sh
+   go run ./cmd/main.go
+   ```
+
+### Execute the /user/create API, using the Curl command shown below;
+   ```sh
+curl -X 'POST' \
+  'http://localhost:8080/user/create' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "name": "Joji"
+}'
+  ```
+
+### 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
